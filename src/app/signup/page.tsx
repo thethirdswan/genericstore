@@ -9,13 +9,13 @@ export default function Signup() {
             <Header />
                 <div className="w-25 m-auto mt-2 mb-2">
                     <h3 className="text-center">Sign Up</h3>
-                    <div className={styles.signup}>
+                    <form className={styles.signup}>
                         <p>Email</p>
                         <input type="text" required></input>
                         <p>Password</p>
                         <input type="password" required></input><br />
                         <input type="submit" value="Sign Up"></input>
-                    </div>
+                    </form>
                 </div>
             <Footer />
         </div>
