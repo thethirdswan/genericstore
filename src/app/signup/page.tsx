@@ -7,7 +7,7 @@ export default function Signup() {
     return (
         <div className="min-vh-100">
             <Header />
-                <div className="w-25 m-auto mt-2 mb-2">
+                <div className="w-50 m-auto mt-2 mb-2">
                     <h3 className="text-center">Sign Up</h3>
                     <form className={styles.signup}>
                         <p>Email</p>
