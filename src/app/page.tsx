@@ -1,5 +1,6 @@
 import Header from "@/app/ui/header";
 import Footer from "@/app/ui/footer";
+import Items from "@/app/ui/itemlist";
 import "bootstrap/dist/css/bootstrap.min.css";
 import styles from "@/app/page.module.css";
 import Image from "next/image"
@@ -29,76 +30,7 @@ export default function Home() {
       </div>
       <p className="text-center">Jiafei products available:</p>
       <div className="d-flex justify-content-around">
-        <div className={styles.items}>
-          <Image
-          src="/bayonettadress.jpg"
-          width={100}
-          height={100}
-          alt="bayonetta"
-          />
-          <p>Item 1</p>
-          <p>Rp10.000</p>
-        </div>
-        <div className={styles.items}>
-          <Image
-          src="/bayonettadress.jpg"
-          width={100}
-          height={100}
-          alt="bayonetta"
-          />
-          <p>Item 2</p>
-          <p>Rp10.000</p>
-        </div>
-        <div className={styles.items}>
-          <Image
-          src="/bayonettadress.jpg"
-          width={100}
-          height={100}
-          alt="bayonetta"
-          />
-          <p>Item 3</p>
-          <p>Rp10.000</p>
-        </div>
-        <div className={styles.items}>
-          <Image
-          src="/bayonettadress.jpg"
-          width={100}
-          height={100}
-          alt="bayonetta"
-          />
-          <p>Item 4</p>
-          <p>Rp10.000</p>
-        </div>
-        <div className={styles.items}>
-          <Image
-          src="/bayonettadress.jpg"
-          width={100}
-          height={100}
-          alt="bayonetta"
-          />
-          <p>Item 5</p>
-          <p>Rp10.000</p>
-        </div>
-        <div className={styles.items}>
-          <Image
-          src="/bayonettadress.jpg"
-          width={100}
-          height={100}
-          alt="bayonetta"
-          />
-          <p>Item 6</p>
-          <p>Rp10.000</p>
-        </div>
-        <div className={styles.items}>
-          <Image
-          src="/bayonettadress.jpg"
-          width={100}
-          height={100}
-          alt="bayonetta"
-          />
-          <p>Item 7</p>
-          <p>Rp10.000</p>
-        </div>
+          <Items />
       </div>
       <Footer />
     </main>
