@@ -11,7 +11,7 @@ export default function Signup() {
 
     function confirm(e: { preventDefault: () => void; }) {
         e.preventDefault();
-        setText(text + "Let's pretend you have signed up, hmm?\n")
+        setText("Let's pretend you have signed up, hmm? Don't worry, your data didn't get anywhere.\n")
     }
     return (
         <div className="min-vh-100">
@@ -22,7 +22,7 @@ export default function Signup() {
                         <label htmlFor="Name">Name</label><br/>
                         <input type="text" required name="Name"></input><br/>
                         <label htmlFor="Email">Email</label><br/>
-                        <input type="text" required name="Email"></input><br/>
+                        <input type="email" required name="Email"></input><br/>
                         <label htmlFor="Password">Password</label><br/>
                         <input type="password" required name="Password"></input><br />
                         <input type="submit" value="Sign Up"></input>

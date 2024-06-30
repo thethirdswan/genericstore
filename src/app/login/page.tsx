@@ -11,7 +11,7 @@ export default function Login() {
 
     function confirm(e: { preventDefault: () => void; }) {
         e.preventDefault();
-        setText(text + "Let's pretend you have logged in, hmm?\n")
+        setText("Let's pretend you have logged in, hmm?\n")
     }
     return (
         <div className="min-vh-100">
