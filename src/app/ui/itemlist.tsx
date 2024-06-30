@@ -6,7 +6,7 @@ export default function Items() {
 
     return items.map((item) => {
         return (
-            <div className={styles.items}>
+            <div className={styles.items} key="items">
             <Image
                 src={item.picture}
                 width={100}
